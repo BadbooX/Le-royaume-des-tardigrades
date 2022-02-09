@@ -14,7 +14,7 @@ body{
    display: flex;
    flex-direction: row;
    justify-content:space-around;
-   border: 1px solid red;
+
    text-align: center;
    margin-top: 20px;
    margin-left: 10px;
