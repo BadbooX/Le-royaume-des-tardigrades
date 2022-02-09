@@ -1,4 +1,82 @@
 
+   
+.tardigrade{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+  
+}
+.tardigrade img{
+    padding: 3px;  
+    border-radius: 35px;
+}
+
+.tardigrade img:hover{
+    background-color:  #B2EA70;;
+    
+}
+.tardigrade p{
+    padding: 3px;  
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.tardigrade p:hover{
+   
+    color: #B2EA70;
+}
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)  and (max-width: 1200px)
+  {
+      .tardigrade{
+          
+       display: grid;
+       grid-template-columns: 50% 50%;
+       background-color: #B2EA70;
+       font-size: 15px;
+       color:white;
+       justify-self: center;
+       
+      }
+      .tardigrade p:hover{
+   
+       color: gray;
+    }
+     
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 768px)
+  {
+      .tardigrade{
+          
+       display: grid;
+       grid-template-columns: 50%;
+       background-color: gray;
+       font-size: 15px;
+       color: #B2EA70;
+      
+      }
+      .tardigrade img{
+        width: 250px;
+      }
+  }
+  
+  
+  
+
+ 
+
+
+
+
+  
+
 *{
     margin:0;
     padding: 0;
