@@ -7,7 +7,7 @@
 }
 .tardishoot{
     background: url("./space_tardigrade.jpg") center no-repeat;
-    background-size: cover;
+    background-position-y: 200px;
     width:100%;
     height: 100%;
     margin-bottom: 50px;
@@ -19,11 +19,15 @@
     width: 100%;
 }
 
+
 .spacetardigrade p{
     margin-top: 20px;
-    height: 240px;
+    height: 100px;
     width:300px;
     
+}
+.hiddentardi{
+    display:none;
 }
 
 .tardip{
@@ -38,8 +42,18 @@
 
 @media (min-width: 1000px) {
     .spacetardigrade{
-        background-color: blue;
+        
         height: 400px;
+    }
+    .spacetardigrade h2{
+        margin-bottom: 50px;
+    }
+    .spacetardigrade .hiddentardi{
+        display: flex;
+        
+    }
+    .tardishoot{
+        background-position-y:center;
     }
     .spacetardigrade p{
         width: 700px;
