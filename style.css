@@ -1,14 +1,4 @@
 
-/*  parite les photos de Tardigrades Hassan*/
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-  
-    margin: 0;
-   font-family: "Lexend Deca", sans-serif;
-}
    
 .tardigrade{
    display: flex;
@@ -86,4 +76,180 @@ body{
 
 
   
-  
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Supermercado One', 'cursive';
+}
+.tardishoot{
+    display:none;
+    background: url("./space_tardigrade.jpg") center no-repeat;
+
+    background-size: cover;
+    background-position-y: 200px;
+    width:100%;
+    height: 100%;
+    
+}
+.hiddentardipic{
+    
+
+    background: url("./img/spacing_tardi.jpg") left no-repeat;
+
+    
+    width:100%;
+    height: 100%;
+}
+
+.spacetardigrade{
+    
+    
+    width: 100%;
+    height: 400px;
+   
+}
+.spacetardigrade h2{
+    margin: auto;
+    text-align: center;
+}
+
+
+.spacetardigrade p{
+    margin-top: 20px;
+    margin: auto;
+    width:80%;
+    
+}
+.hiddentardi{
+    display:none;
+}
+.hiddentardipic{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
+
+.tardip{
+    
+    background-position: center;
+    width:100%;
+    
+}
+
+
+@media (min-width: 1000px) {
+    .verticality{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .spacetardigrade{
+        text-align: center;
+        height: 400px;
+    }
+    .spacetardigrade h2{
+        margin-bottom: 50px;
+        margin: auto;
+    }
+    .spacetardigrade .hiddentardi{
+        display: flex;
+
+    }
+    .hiddentardipic{
+        height:500px;
+        width: 100%;
+    }
+    .tardip{
+
+        width: 1150px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    .tardishoot{
+        display:flex;
+        background-position-y:center;
+    }
+
+    .spacetardigrade p{
+        width: 100%;
+    }
+
+/* Fin code Kévin*/
+
+  @media (max-width:610px) {
+    header, 
+    header.sticky{
+        padding: 10px 20px;
+    }
+    header .navbar li{
+        margin-left: 0px;
+    }
+    header .navbar li a {
+        text-decoration: none;
+        color: #111;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    .navbar{
+        display: none;
+    }
+    header .navbar.active{
+        width: 100%;
+        height: calc(100% -68px);
+        top: 68px;
+        left:0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #ffff;
+        align-items: center;
+        padding: 5px;
+    }
+    header .logo {
+        margin-left: 8px;
+    }
+    .logo-title {
+        font-size: 0.6;
+    }
+    header .navbar.active {
+        margin-top: 70px;
+        background-color:#582900;
+        border-bottom: 0.25rem solid #B2EA70;
+    }
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        right: 20%;
+        background-image: url(./img/iconemenu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: 40px;
+    }
+    .menuToggle.active
+    {
+      background-image: url(./img/iconemenu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-origin: center;
+    }
+    header.sticky .menuToggle{
+        filter: invert(1);
+    }
+    .menu{
+        margin-top: 50px;
+    }
+}
+@media (max-width:410px) {   
+  .logo-title h1{
+  font-size: 10px;
+  }
+}
+
