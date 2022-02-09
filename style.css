@@ -35,11 +35,12 @@ body{
       .tardigrade{
           
        display: grid;
-       grid-template-columns: 60% 40%;
+       grid-template-columns: 50% 50%;
        background-color: greenyellow;
        font-size: 15px;
        color: gray;
        justify-self: center;
+      
       }
      
   }
@@ -49,7 +50,7 @@ body{
       .tardigrade{
           
        display: block;
-       grid-template-columns: 40%;
+       grid-template-columns: 50%;
        background-color: gray;
        font-size: 15px;
        color: greenyellow;
