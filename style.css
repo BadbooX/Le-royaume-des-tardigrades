@@ -12,10 +12,10 @@
     background-position-y: 200px;
     width:100%;
     height: 100%;
-    margin-bottom: 50px;
+    
 }
 .hiddentardipic{
-    display:flex;
+    
     background: url("./spacing_tardi.jpg") left no-repeat;
     
     width:100%;
@@ -23,54 +23,81 @@
 }
 
 .spacetardigrade{
-    text-align: center;
-    height: 400px;
+    
+    
     width: 100%;
+    height: 400px;
+   
+}
+.spacetardigrade h2{
+    margin: auto;
+    text-align: center;
 }
 
 
 .spacetardigrade p{
     margin-top: 20px;
-    height: 100px;
-    width:300px;
+    margin: auto;
+    width:80%;
     
 }
 .hiddentardi{
     display:none;
 }
+.hiddentardipic{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
 
 .tardip{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
     background-position: center;
     width:100%;
     
 }
 
+
 @media (min-width: 1000px) {
+    .verticality{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
     .spacetardigrade{
-        
+        text-align: center;
         height: 400px;
     }
     .spacetardigrade h2{
         margin-bottom: 50px;
+        margin: auto;
     }
     .spacetardigrade .hiddentardi{
         display: flex;
-        
+
     }
     .hiddentardipic{
-        display: none;
+        height:500px;
+        width: 100%;
+    }
+    .tardip{
+
+        width: 1150px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
     }
     .tardishoot{
         display:flex;
         background-position-y:center;
     }
+
     .spacetardigrade p{
-        width: 700px;
+        width: 100%;
     }
+    
    
     
 }
