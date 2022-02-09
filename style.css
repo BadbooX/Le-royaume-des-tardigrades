@@ -41,7 +41,7 @@ body{
     color: #B2EA70;
 }
 
-  @media screen and (min-width: 768px) and (max-width: 1024px) and (max-width: 1200px)
+  @media screen and (min-width: 768px) and (max-width: 1024px)  and (max-width: 1200px)
   {
       .tardigrade{
           
@@ -60,7 +60,7 @@ body{
      
   }
 
-  @media screen and (min-width: 480px) and (max-width: 768px) 
+  @media screen and (min-width: 480px) and (max-width: 768px)
   {
       .tardigrade{
           
