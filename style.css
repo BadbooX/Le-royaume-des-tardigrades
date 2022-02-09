@@ -19,13 +19,16 @@ body{
    margin-left: 10px;
    margin-right: 10px;
   
-   font-size: 25px;
 }
 .tardigrade img{
     padding: 3px;  
     border-radius: 10px;
 }
-
+.tardigrade p{
+    padding: 3px;  
+    text-align: center;
+    font-size: 20px;
+}
 
   @media screen and (min-width: 768px) and (max-width: 1024px)
   {
@@ -57,6 +60,7 @@ body{
       }
   }
   
+
  
 
 
