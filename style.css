@@ -50,13 +50,13 @@ body{
        grid-template-columns: 50% 50%;
        background-color: #B2EA70;
        font-size: 15px;
-       color: gray;
+       color:white;
        justify-self: center;
        
       }
       .tardigrade p:hover{
    
-        color: white;
+       color: gray;
     }
      
   }
