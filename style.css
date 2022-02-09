@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding: 0;
@@ -8,6 +9,7 @@
 .tardishoot{
     display:none;
     background: url("./space_tardigrade.jpg") center no-repeat;
+
     background-size: cover;
     background-position-y: 200px;
     width:100%;
@@ -16,7 +18,9 @@
 }
 .hiddentardipic{
     
-    background: url("./spacing_tardi.jpg") left no-repeat;
+
+    background: url("./img/spacing_tardi.jpg") left no-repeat;
+
     
     width:100%;
     height: 100%;
@@ -97,7 +101,77 @@
     .spacetardigrade p{
         width: 100%;
     }
-    
-   
-    
+
+/* Fin code Kévin*/
+
+  @media (max-width:610px) {
+    header, 
+    header.sticky{
+        padding: 10px 20px;
+    }
+    header .navbar li{
+        margin-left: 0px;
+    }
+    header .navbar li a {
+        text-decoration: none;
+        color: #111;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    .navbar{
+        display: none;
+    }
+    header .navbar.active{
+        width: 100%;
+        height: calc(100% -68px);
+        top: 68px;
+        left:0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #ffff;
+        align-items: center;
+        padding: 5px;
+    }
+    header .logo {
+        margin-left: 8px;
+    }
+    .logo-title {
+        font-size: 0.6;
+    }
+    header .navbar.active {
+        margin-top: 70px;
+        background-color:#582900;
+        border-bottom: 0.25rem solid #B2EA70;
+    }
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        right: 20%;
+        background-image: url(./img/iconemenu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: 40px;
+    }
+    .menuToggle.active
+    {
+      background-image: url(./img/iconemenu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-origin: center;
+    }
+    header.sticky .menuToggle{
+        filter: invert(1);
+    }
+    .menu{
+        margin-top: 50px;
+    }
 }
+@media (max-width:410px) {   
+  .logo-title h1{
+  font-size: 10px;
+  }
+}
+
