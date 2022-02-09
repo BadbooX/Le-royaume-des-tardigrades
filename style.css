@@ -6,24 +6,44 @@
     font-family: 'Supermercado One', 'cursive';
 }
 .tardishoot{
+    background: url("./space_tardigrade.jpg") center no-repeat;
     background-size: cover;
     width:100%;
-    height: 240px;
-    display: flex;
+    height: 100%;
     margin-bottom: 50px;
 }
 
 .spacetardigrade{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    width: 500px;
-    text-align: center;
+    height: 400px;
+    width: 100%;
 }
 
 .spacetardigrade p{
     margin-top: 20px;
     height: 240px;
-    width: 500px;
+    width:300px;
+    
+}
+
+.tardip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    width:100%;
+    
+}
+
+@media (min-width: 1000px) {
+    .spacetardigrade{
+        background-color: blue;
+        height: 400px;
+    }
+    .spacetardigrade p{
+        width: 700px;
+    }
+   
+    
 }
