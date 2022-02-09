@@ -6,11 +6,20 @@
     font-family: 'Supermercado One', 'cursive';
 }
 .tardishoot{
+    display:none;
     background: url("./space_tardigrade.jpg") center no-repeat;
+    background-size: cover;
     background-position-y: 200px;
     width:100%;
     height: 100%;
     margin-bottom: 50px;
+}
+.hiddentardipic{
+    display:flex;
+    background: url("./spacing_tardi.jpg") left no-repeat;
+    
+    width:100%;
+    height: 100%;
 }
 
 .spacetardigrade{
@@ -52,7 +61,11 @@
         display: flex;
         
     }
+    .hiddentardipic{
+        display: none;
+    }
     .tardishoot{
+        display:flex;
         background-position-y:center;
     }
     .spacetardigrade p{
