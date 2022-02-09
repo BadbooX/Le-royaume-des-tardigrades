@@ -64,7 +64,7 @@ body{
   {
       .tardigrade{
           
-       display: block;
+       display: grid;
        grid-template-columns: 50%;
        background-color: gray;
        font-size: 15px;
