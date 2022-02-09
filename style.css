@@ -1,0 +1,63 @@
+
+/*  parite les photos de Tardigrades Hassan*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    margin: 0;
+}
+ p{
+     padding: 8px;
+ }
+    
+    
+.tardigrade{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border: 1px solid red;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 25px;
+}
+.tardigrade img{
+    padding: 5px;  
+    border-radius: 10px;
+}
+
+
+
+
+  
+
+  @media screen and (min-width: 768px) and (max-width: 1024px)
+  {
+      .tardigrade{
+          
+       display: grid;
+       grid-template-columns: 60% 40%;
+       background-color: greenyellow;
+       font-size: 15px;
+       color: gray;
+      }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 768px) 
+  {
+      .tardigrade{
+          
+       display: block;
+       grid-template-columns: 40%;
+       background-color: gray;
+       font-size: 15px;
+       color: greenyellow;
+      }
+      .tardigrade img{
+        width: 250px;
+      }
+  }
+  
